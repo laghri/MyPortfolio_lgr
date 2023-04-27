@@ -5,7 +5,7 @@
     --primary-color:#5924ed;
     --secondary-black:#0d081a;
     --secondary-gray:#48464b;
-    --body-bg:#efebfa;
+    --body-bg:#f1f0f5;
 
 
 
@@ -46,7 +46,7 @@ a{
     display: inline-block;
     background-color:var(--primary-color);
     color: white;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     padding: 0.6em 1.6em;
     border-radius: 50px;
     -webkit-border-radius: 50px;
@@ -709,10 +709,10 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 2rem;
 }
 #about .left{
-    padding: 2rem;
+    padding: 3rem;
     
     text-align: center;
 }
@@ -727,8 +727,8 @@ justify-content: center;
     min-height: 400px;
 }
 #about .left .card .img{
-    width: 70px;
-    height: 70px;
+    width: 130px;
+    height: 130px;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 50%;
@@ -849,7 +849,7 @@ justify-content: center;
     margin-bottom: 1rem;
 }
 #about .right .slogan{
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
 }
 #about .right .right-text{
@@ -988,17 +988,20 @@ margin-bottom: 2rem;
             flex-direction: column;
         }
         #projects .item .left .img{
-           width: 100%;
+           width: 90%;
         }
         #projects .item .left{
             width: 100%;
             margin: 0 auto;
             margin-top: -150px;
+            margin-right: 10px;
+
         }
         #projects .item .right{
             width: 90%;
             margin-left: 0;
             margin-top: -200px;
+            margin-right: 10px;
         }
         #projects .item:nth-child(even){
             flex-direction: column;
@@ -1012,7 +1015,7 @@ margin-bottom: 2rem;
         flex-direction: column;
     }
     #projects .item .right .buttons  a{
-        width: 100%;
+        width: 90%;
         text-align: center;
     }
 }
